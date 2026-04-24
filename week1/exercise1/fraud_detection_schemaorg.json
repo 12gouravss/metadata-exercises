@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Credit Card Fraud Detection Dataset",
+  "description": "An anonymized dataset of European credit card transactions used for fraud detection, anomaly detection, and machine learning benchmarking.",
+  "url": "https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud",
+  "sameAs": "https://zenodo.org/record/1234567",
+  "identifier": "https://doi.org/10.5281/zenodo.1234567",
+
+  "creator": {
+    "@type": "Organization",
+    "name": "Machine Learning Group",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Université Libre de Bruxelles"
+    }
+  },
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Kaggle",
+    "url": "https://www.kaggle.com/"
+  },
+
+  "datePublished": "2013",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+
+  "keywords": [
+    "Fraud Detection",
+    "Machine Learning",
+    "Anomaly Detection",
+    "Finance",
+    "PCA"
+  ],
+
+  "measurementTechnique": "Principal Component Analysis (PCA)",
+
+  "variableMeasured": [
+    "Time",
+    "Transaction Amount",
+    "Class Label (Fraud/Non-Fraud)"
+  ],
+
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Europe"
+  },
+
+  "citation": {
+    "@type": "ScholarlyArticle",
+    "name": "Credit Card Fraud Detection using Machine Learning",
+    "author": "Machine Learning Group ULB"
+  },
+
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "CSV",
+    "contentUrl": "https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud"
+  }
+}
