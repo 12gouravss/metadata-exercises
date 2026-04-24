@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://datacite.org/schema/kernel-4
+          http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+
+  <identifier identifierType="DOI">10.5281/zenodo.1234567</identifier>
+
+  <creators>
+    <creator>
+      <creatorName>Machine Learning Group</creatorName>
+      <affiliation>Université Libre de Bruxelles (ULB)</affiliation>
+    </creator>
+  </creators>
+
+  <titles>
+    <title>Credit Card Fraud Detection Dataset for Machine Learning</title>
+  </titles>
+
+  <publisher>Zenodo</publisher>
+
+  <publicationYear>2013</publicationYear>
+
+  <resourceType resourceTypeGeneral="Dataset">Tabular Dataset</resourceType>
+
+  <subjects>
+    <subject>Fraud Detection</subject>
+    <subject>Machine Learning</subject>
+    <subject>Anomaly Detection</subject>
+    <subject>Financial Data Analysis</subject>
+  </subjects>
+
+  <contributors>
+    <contributor contributorType="HostingInstitution">
+      <contributorName>Kaggle</contributorName>
+    </contributor>
+  </contributors>
+
+  <dates>
+    <date dateType="Collected">2013</date>
+    <date dateType="Available">2016</date>
+  </dates>
+
+  <language>en</language>
+
+  <sizes>
+    <size>284807 transactions</size>
+  </sizes>
+
+  <formats>
+    <format>CSV</format>
+  </formats>
+
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International License
+    </rights>
+  </rightsList>
+
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>Europe</geoLocationPlace>
+    </geoLocation>
+  </geoLocations>
+
+  <fundingReferences>
+    <fundingReference>
+      <funderName>European Research Initiatives</funderName>
+    </fundingReference>
+  </fundingReferences>
+
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">
+      https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+    </relatedIdentifier>
+  </relatedIdentifiers>
+
+  <descriptions>
+    <description descriptionType="Abstract">
+      This dataset contains anonymized credit card transactions made by European cardholders. The features are transformed using PCA for confidentiality. It is highly imbalanced and widely used for benchmarking fraud detection algorithms in machine learning research.
+    </description>
+  </descriptions>
+
+</resource>
